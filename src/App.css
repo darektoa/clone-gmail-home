@@ -1,38 +1,135 @@
-.App {
-  text-align: center;
+/*
+    HEADER
+*/
+header{
+    width: 100%;
+    padding: .9rem 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12), inset 0 -1px 0 0 #dadce0;
+    z-index: 100;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header > nav{
+    padding: 0 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header > nav > figure{
+    display: flex;
+    align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+header > nav > figure > img{
+    width: 3.3rem;
+    margin-right: .5rem;
 }
 
-.App-link {
-  color: #61dafb;
+header > nav > figure > figcaption{
+    color: #5f6368;
+    font-size: 2.6rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header > nav > ul{
+    height: auto;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+header > nav > ul > li{
+    height: auto;
+    margin-left: 3.6rem;
+    display: flex;
+    align-items: center;
+}
+
+header > nav > ul > li:first-child{
+    margin: 0;
+}
+
+header > nav > ul > li > a{
+    color: #5f6368;
+    font-size: 1.4rem;
+    text-decoration: none;
+}   
+
+header > nav > ul > li > a:hover{
+    color: #000;
+}
+
+a.register{
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    padding: 0 2.4rem;
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #1a73e8;
+}
+
+a.register:hover{
+    color: #fff;
+    background-color: #174ea6;
+}
+
+
+/*
+    MAIN
+*/
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/*
+    HERO
+*/
+#hero{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+}
+
+#hero > .text-box{
+    width: 50%;
+    padding: 0 6.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hero > .text-box > h1{
+    margin-bottom: 2.4rem;
+    font-size: 5.6rem;
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+#hero > .text-box > p{
+    margin-bottom: 3.6rem;
+    color: #202124;
+    font-size: 1.8rem;
+}
+
+#hero > .img-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#hero > .img-box > img{
+    width: 91rem;
 }
