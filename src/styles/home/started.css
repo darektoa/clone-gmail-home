@@ -1,0 +1,23 @@
+#started{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#started > .container{
+  padding: 14.4rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#started > .container > img{
+  width: 7.5rem;
+}
+
+#started > .container > h1{
+  margin: 3.2rem 0;
+  font-size: 4.4rem;
+  font-weight: 500;
+}

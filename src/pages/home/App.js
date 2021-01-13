@@ -6,6 +6,8 @@ import Experience from './Experience';
 import Organize from './Organize';
 import Action from './Action';
 import Secure from './Secure';
+import Started from './Started';
+import Footer from './Footer';
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Organize />
       <Action />
       <Secure />
+      <Started />
+      <Footer />
     </main>
   );
 }
