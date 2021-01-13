@@ -1,0 +1,46 @@
+#action{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#action > .container{
+  padding: 14.4rem 3.2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+  TEXT BOX
+*/
+#action .text-box{
+  width: 50%;
+  padding: 0 6.2rem;
+}
+
+#action .text-box > h1{
+  margin-bottom: 2.4rem;
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+#action .text-box > p{
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: .25px;
+}
+
+/*
+  IMG BOX
+*/
+#action .img-box{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+#action .img-box > img{
+  width: 100%;
+}

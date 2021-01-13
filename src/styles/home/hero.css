@@ -1,0 +1,52 @@
+#hero{
+    width: 100%;
+    min-height: 53rem;
+    display: flex;
+    justify-content: center;
+    background-color: #f8f9fa;
+    overflow: hidden;
+}
+
+#hero > .container{
+    padding: 0 3.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#hero .text-box{
+    width: 50%;
+    padding: 0 6.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#hero .text-box > h1{
+    margin-bottom: 2.4rem;
+    color: #202124;
+    letter-spacing: -.5px;
+    font-size: 5.6rem;
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+#hero .text-box > p{
+    margin-bottom: 4.4rem;
+    color: #202124;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.625;
+    letter-spacing: .25px;
+}
+
+#hero .img-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#hero .img-box > img{
+    width: 91rem;
+}

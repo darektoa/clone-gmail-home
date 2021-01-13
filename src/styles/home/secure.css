@@ -1,0 +1,54 @@
+#secure{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+}
+
+#secure > .container{
+  padding: 14.4rem 3.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+  IMG BOX
+*/
+#secure .img-box{
+  width: 48%;
+  margin: 1%;
+  display: flex;
+  align-items: center;
+}
+
+#secure .img-box > img{
+  width: 100%;
+}
+
+/*
+  TEXT BOX
+*/
+#secure .text-box{
+  width: 48%;
+  margin: 1%;
+  padding: 0 4.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#secure .text-box > h1{
+  margin-bottom: 2.4rem;
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: .5px;
+}
+
+#secure .text-box > p{
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.18;
+}

@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './font-size.css';
-import { App, Header } from './App';
+
+import './styles/index.css';
+import './styles/font-size.css';
+
+import { App, Header } from './pages/home/App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(

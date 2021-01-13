@@ -1,0 +1,59 @@
+#organize{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#organize > .container{
+  padding: 5.4rem 3.2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#organize .card{
+  width: 48%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f8f9fa;
+}
+
+/*
+  TEXT BOX
+*/
+#organize .card > .text-box{
+  width: 100%;
+  min-height: 25rem;
+  padding: 5.4rem 10% 0;
+}
+
+#organize .card > .text-box > h1{
+  margin-bottom: 2.4rem;
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+#organize .card > .text-box > p{
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 1.7;
+  letter-spacing: .25px;
+}
+
+/*
+  IMG BOX
+*/
+#organize .card > .img-box{
+  width: 100%;
+  min-height: 25rem;
+  padding-bottom: 5.4rem;
+  display: flex;
+  align-items: center;
+}
+
+#organize .card > .img-box > img{
+  width: 100%;
+}

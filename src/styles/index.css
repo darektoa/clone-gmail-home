@@ -1,0 +1,39 @@
+@font-face{
+  src: url("../fonts/google-sans.woff2") format('woff2');
+  font-family: "Google Sans";
+  font-weight: 500;
+}
+
+@font-face{
+  src: url("../fonts/google-sans1.woff2") format('woff2');
+  font-family: "Google Sans";
+  font-weight: 300;
+}
+
+@font-face{
+  src: url("../fonts/product-sans.woff2") format('woff2');
+  font-family: "Product Sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  /* border: 1px solid red; */
+}
+
+:root{
+  font-size: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 100%;
+  max-width: 1366px;
+}
